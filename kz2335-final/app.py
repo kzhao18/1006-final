@@ -20,9 +20,9 @@ def home():
 def test():
     return render_template("1006.html")
 
-"""@app.route("/assignments")
+@app.route("/distraction")
 def assignments():
-    return render_template("assignments.html")"""
+    return render_template("distraction.html")
 
 @app.route("/classes")
 def classes():
